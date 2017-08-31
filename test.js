@@ -4,14 +4,11 @@ var client = webdriverio.remote(options);
 client
     .init()
     .url('https://internet.frontier.com/')
-    //.setValue('#search_form_input_homepage', 'WebdriverIO')
-    //.click('#menu-item-5108') // click on All Plans
-	
-	.setValue('#street', '1554 bellridge rd')
-	.setValue('#city', 'rock hill')
+    .setValue('#street', '1554 bellridge rd')
+    .setValue('#city', 'rock hill')
 		
 	//Function to get states value.
-	.then('should demonstrate the selectByIndex command', function () {
+   .then('should demonstrate the selectByIndex command', function () {
     var selectBox = document.getElementById('state');
     console.log(selectBox.getValue()); // returns "someValue0"
     
