@@ -7,25 +7,24 @@ client
     .setValue('#street', '1554 bellridge rd')
     .setValue('#city', 'rock hill')
 		
-	//Function to get states value.
+//Function to get states value.
    .then('should demonstrate the selectByIndex command', function () {
     var selectBox = document.getElementById('state');
     console.log(selectBox.getValue()); // returns "someValue0"
     
 	selectBox.selectByIndex(4);
     console.log(selectBox.getValue()); // returns "someValue4"
-
-})
-	//End
+})//End
 	
 	.setValue('#zip', '29732')
 	
+
+//Function to check phone number format
 	.then('is phone number format correctly?', function () {
 	var regex = /^\d-\d{3}-\d{3}-\d{4}$/;
 	var phoneNum = document.getAttribute('=1-877-558-8066', 'href');
 	console.log(regex.test(phoneNum));
-	
-	})
+})//End
 	
 	
 	.waitForVisible('img').then(function(visible){
