@@ -21,3 +21,9 @@ Overview for landing page tests
 5 Making sure text is correct / spelling is correct  
 6 Making sure JavaScript interactions are working i.e. hovering, clicking, animations  
 7 Making sure CSS is consistent across similar elements i.e. link styling, button styling  
+
+
+Error found:
+Using chrome I make the window smaller where it would eventually changed the look into a "mobile" look.  
+The hamburger menu appear, when I clicked on it I get a submenu, however when clicking on any of the  
+submenu items nothing would happen. This is a design flaw.  
