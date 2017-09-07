@@ -14,9 +14,9 @@ Overview for landing page tests
 1 Making sure images and graphics are all visible  
 2 Making sure prices, phone numbers, and timer are formatted correctly (using regex)  
 3 Making sure form is validated  
-a. submit form without entering any information  
-b. submit form by entering incorrect information  
-c. submit form by entering valid information  
+  a. submit form without entering any information  
+  b. submit form by entering incorrect information  
+  c. submit form by entering valid information  
 4 Making sure links direct correctly  
 5 Making sure text is correct / spelling is correct  
 6 Making sure JavaScript interactions are working i.e. hovering, clicking, animations  
