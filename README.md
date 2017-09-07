@@ -9,7 +9,7 @@ Using WebDriverIO and selenium-standlone server to do testing.
 -run npm test in command line.  
 
 
-##TEST##
+##TEST##  
 Overview for landing page tests  
 1 Making sure images and graphics are all visible  
 2 Making sure prices, phone numbers, and timer are formatted correctly (using regex)  
