@@ -1,0 +1,24 @@
+{
+  "name": "wdio-test",
+  "version": "1.0.0",
+  "description": "sampleRV",
+  "main": "myTest.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "selenium-standalone": "^6.8.0",
+    "should": "^12.0.0",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
